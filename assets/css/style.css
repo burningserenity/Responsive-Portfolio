@@ -1,0 +1,597 @@
+/*################
+# For every page #
+################*/
+
+/*Global*/
+body
+{
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+h2
+{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p
+{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-color: #ffffff;
+}
+
+/*Top portion*/
+.main_header
+{
+  background-color: #ffffff;
+  border-color: #cccccc;
+  border-bottom-style: solid;
+  color: #4aaaa5;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin: 0 0 40px 0;
+  padding: 0;
+  border-width: medium;
+  min-width: 1230px;
+}
+
+#name
+{
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 600;
+  width: 245px;
+  height: 70px;
+  text-align: center;
+  line-height: 85px;
+  margin-left: 270px;
+  margin-top: 10px;
+}
+
+/*Navbar*/
+nav
+{
+  position: relative;
+  float: right;
+  color: gainsboro;
+  background-color: white;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.toplink:link
+{
+  text-decoration: none;
+  color: gray;
+  background-color: inherit;
+}
+
+.toplink:visited
+{
+  text-decoration: none;
+  color: gray;
+  background-color: inherit;
+}
+
+.toplink:hover
+{
+  text-decoration: underline;
+  color: black;
+  background-color: inherit;
+}
+
+.toplink:active
+{
+  text-decoration: none;
+  color: black;
+  background-color: inherit;
+}
+
+/*Main box*/
+.container
+{
+  width: 1230px;
+}
+
+.main_content
+{
+  background-color: white;
+  color: black;
+  left: 270px;
+  right: 510px;
+  width: 650px;
+  position: relative;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+}
+
+hr
+{
+  background-color: #dddddd;
+  display: block;
+  height: 2px;
+  border: 0;
+  margin: 15px;
+}
+
+/*Second box*/
+.conhr
+{
+  margin: -3px;
+  margin-top: 12px;
+}
+
+#social_media
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -495px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+#connect
+{
+  line-height: 56px;
+  text-align: left;
+  height: 35px;
+}
+
+#buttons
+{
+  line-height: 46px;
+  position: relative;
+  top: 20px;
+}
+
+.imagelink
+{
+  text-decoration: none;
+}
+
+#github
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 0 0 0;
+}
+
+#github:hover
+{
+  width: 55px;
+  height: 55px;
+}
+
+#linkedin
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 1px 0 0;
+}
+
+#linkedin:hover
+{
+  width: 55px;
+  height: 55px;
+}
+
+#stackoverflow
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 0 0 1px;
+}
+
+#stackoverflow:hover
+{
+  width: 55px;
+  height: 55px;
+}
+
+/*Sticky footer*/
+footer
+{
+  position: fixed;
+  background-color: darkslategray;
+  color: white;
+  top: 95%;
+  width: 100%;
+  min-width: 1230px;
+  line-height: 35px;
+  height: 45px;
+  text-align: center;
+  z-index: 3;
+}
+
+/*#################
+# index.html only #
+#################*/
+
+#my_face
+{
+  float: left;
+  margin: 9px 15px 5px 0;
+  height: 150px;
+}
+
+#about
+{
+  background-color: white;
+  color: #4aaaa5;
+  text-indent: 15px;
+  height: 37px;
+  line-height: 62px;
+  margin-top: 0;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
+}
+
+#bio
+{
+  position: relative;
+  z-index: 1;
+  margin: 0 15px 5px 15px;
+  line-height: 30px;
+}
+
+/*###################
+# contact.html only #
+####################*/
+#contact_header
+{
+  background-color: white;
+  color: #4aaaa5;
+  text-indent: 15px;
+  height: 70px;
+  line-height: 100px;
+  margin-top: 0;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
+}
+
+form
+{
+  margin: 25px 5px 10px 15px;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-color: white;
+}
+
+#submission
+{
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+/*Overrides main second box CSS*/
+#social_media_contact
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -563px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+/*#####################
+# portfolio.html only #
+#####################*/
+#portfolio_header
+{
+  background-color: white;
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
+  text-indent: 15px;
+  height: 44px;
+  line-height: 71px;
+  margin-top: 0;
+}
+
+#soon
+{
+  margin: 10px 10px 20px 20px;
+  width: 600px;
+  height: 300px;
+}
+
+#coming
+{
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+  width: 650px;
+  position: absolute;
+  top: 83%;
+  height: 36px;
+  line-height: 32px;
+}
+
+/*Overrides main second box CSS*/
+#social_media_portfolio
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -410px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Screen responsive overrides @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media only screen and (max-width: 980px)
+{
+  /*All pages*/
+  .container
+  {
+    width: 900px;
+  }
+
+  .main_header
+  {
+    min-width: 900px;
+    max-width: 980px;
+  }
+
+  #name
+  {
+    margin-left: 127px;
+  }
+
+  .main_content
+  {
+    left: 127px;
+    width: 420px;
+  }
+
+  footer
+  {
+    min-width: 900px;
+  }
+
+  #social_media
+  {
+    top: -927px
+  }
+
+  nav
+  {
+    right: 110px;
+  }
+
+  /*index.html only*/
+  #my_face
+  {
+    width: 360px;
+    height: 268px;
+    margin: 9px 15px 35px;
+  }
+
+  /*portfolio.html only*/
+  #soon
+  {
+    width: 380px;
+  }
+
+  #coming
+  {
+    width: 421px;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  /*All pages*/
+  .container
+  {
+    width: 800px;
+  }
+
+  .main_header
+  {
+    min-width: 800px;
+  }
+
+  #name
+  {
+    margin-left: 10px;
+  }
+
+  .main_content
+  {
+    left: 10px;
+    height: 521px;
+    width: 778px;
+  }
+
+  nav
+  {
+    right: 6px;
+  }
+
+  #social_media
+  {
+    position: static;
+    margin: 79px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px 15px 15px;
+    float: none;
+  }
+
+  footer
+  {
+    margin-left: -84px;
+  }
+
+  /*index.html only*/
+  #my_face
+  {
+    width: 351px;
+    height: 249px;
+  }
+
+  /*contact.html only*/
+  #contact_main
+  {
+    height: 562px;
+  }
+
+  #social_media_contact
+  {
+    position: static;
+    margin: 79px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px 15px 15px;
+    float: none;
+  }
+
+  /*portfolio.html only*/
+  #soon
+  {
+    width: 732px;
+    height: 400px;
+  }
+
+  #coming
+  {
+    width: 778px;
+  }
+
+  #social_media_portfolio
+  {
+    position: static;
+    margin: 79px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 15px 15px 15px;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 640px)
+{
+  /*All pages*/
+  .container
+  {
+    width: 640px;
+  }
+
+  .main_header
+  {
+    min-width: 640px;
+  }
+
+  #name
+  {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .main_content
+  {
+    left: 46px;
+    width: 558px;
+    height: 1273px;
+    top: 20px;
+  }
+
+  nav
+  {
+    position: static;
+    float: none;
+    padding-top: 86px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  nav a
+  {
+    padding: 0 40px 0 40px;
+  }
+
+  #social_media
+  {
+    position: static;
+    float: none;
+    margin: 38px 0 70px 0;
+  }
+
+  #buttons
+  {
+    padding-left: 5px;
+  }
+
+  footer
+  {
+    margin-left: -139px;
+  }
+
+  /*index.html only*/
+  #my_face
+  {
+    width: 500px;
+    height: 768px;
+  }
+
+  /*portfolio.html only*/
+  #soon
+  {
+    width: 518px;
+  }
+
+  #portfolio_main
+  {
+    height: 520px;
+  }
+
+  #coming
+  {
+    width: 559px;
+  }
+}
